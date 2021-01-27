@@ -7,4 +7,5 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'Wel-Come to Angular code...';
+  myStyle = 'red';
 }

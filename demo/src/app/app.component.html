@@ -349,6 +349,8 @@
   <!-- Resources -->
   <h2>Resources</h2>
   <p [ngClass]="myStyle">Here are some links to help you get started:</p>
+  <p *ngIf="num > 5">Number is Greter than 5</p>
+  <p *ngIf="num < 5">Number is Less than 5</p>
   <ul [ngClass]="myStyle">
     <li *ngFor="let data of myData">
       <h2>{{data.name}} - {{data.addr}}</h2>

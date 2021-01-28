@@ -8,4 +8,18 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'Wel-Come to Angular code...';
   myStyle = 'red';
+  myData = [
+    {
+      name: 'Hitesh Ahire',
+      addr: 'Dabli'
+    },
+    {
+      name: 'Ganesh Nikam',
+      addr: 'Malegaon'
+    },
+    {
+      name: 'Nikita Morankar',
+      addr: 'Pachora'
+    }
+  ];
 }

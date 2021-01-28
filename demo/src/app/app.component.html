@@ -349,6 +349,11 @@
   <!-- Resources -->
   <h2>Resources</h2>
   <p [ngClass]="myStyle">Here are some links to help you get started:</p>
+  <ul [ngClass]="myStyle">
+    <li *ngFor="let data of myData">
+      <h2>{{data.name}} - {{data.addr}}</h2>
+    </li>
+  </ul>
 
   <div class="card-container">
     <a class="card" target="_blank" rel="noopener" href="https://angular.io/tutorial">
